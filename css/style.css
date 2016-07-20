@@ -1,0 +1,225 @@
+body {
+  padding: 15px;
+  text-align: center;
+  color: black;
+}
+
+.main-nav {
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.name-top {
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+
+.menu {
+  padding: 10px;
+}
+
+.profile-image {
+  max-width: 100%;
+  width: 229px;
+  height: 168px;
+}
+
+.intro {
+  text-align: center;
+  padding: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  padding-bottom: 25px;
+  color: black;
+}
+
+.gallery img {
+  max-width: 100%;
+  margin: auto;
+}
+   
+.gallery p {
+  padding-bottom: 10px;
+}
+
+#contact {
+  padding-top: 50px;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact p {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#contact li {
+  padding-bottom: 15px;
+}
+
+#contact {
+  padding-bottom: 25px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 25px;
+  border-top-style: solid;
+  border-top-width: thin; 
+  border-top-color: silver;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer li {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: inline;
+  font-size: 1em;
+  font-weight: bold;
+  color: black;
+}
+
+.name {
+  position: absolute;
+  left: 10px;
+}
+
+.top {
+  position: absolute;
+  right: 10px;
+}
+
+.bottom-menu {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+
+  .nav {
+    display: block;
+  }
+
+  .menu {
+    display: inline-block;
+  }
+  
+  .intro p {
+    text-align: left;
+  }
+  
+  .profile-image {
+    display: inline-block;
+    float: right;
+    width: 305px;
+    height: 224px;
+    margin-left: 15px;
+  }
+  
+  #portfolio {
+    clear: both;
+    padding-top: 50px;
+  }
+  
+  #portfolio li {
+    float: left;
+    width: 48%;
+    margin: 1%;
+  }
+
+/*
+   #portfolio li:nth-child(3n) {
+     clear: left;
+  }
+*/
+  
+  #contact {
+    clear: both;
+    padding: 50px;
+    margin: 0 100px -25px 100px;
+  }
+
+  #contact p {
+     margin-top: -25px;
+  }
+
+  .footer {
+    float: right;
+  }
+ 
+  .bottom-menu {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .top {
+    display: none;
+  }
+
+  .name {
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+/*
+    bottom: 10px;
+*/
+  }  
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+  .nav {
+    float: right;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .name-top {
+    position: absolute;
+    left: 10px;
+  }
+  
+  #portfolio li {
+    float: left;
+    width: 31.33333333333333%;
+    margin: 1%;
+  }
+
+  #contact {
+    clear: both;
+    padding: 50px;
+    margin: 0 200px -25px 200px;
+  }
+
+}
+
